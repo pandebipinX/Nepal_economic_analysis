@@ -30,7 +30,7 @@ Python (pandas, numpy, matplotlib, seaborn) · PostgreSQL · SQLAlchemy · SQL (
 ## Key Findings
 
 **Structural shift, but toward services, not industry.**
-Agriculture's share of national GDP fell from 33.8% (2011) to 29.0% (2024) — a 4.8-point decline. Over the same period, Services grew from 51.2% to 54.8% of GDP (+3.6 pts) and Industry from 15.0% to 16.2% (+1.2 pts). Services is absorbing nearly all of the share agriculture is losing — a sign Nepal's transformation is skipping industrialization and moving straight into a services-led economy.
+Agriculture's share of national GDP fell from 33.8% (2011) to 29.0% (2023) — a 4.8-point decline. Over the same period, Services grew from 51.2% to 54.8% of GDP (+3.6 pts) and Industry from 15.0% to 16.2% (+1.2 pts). Services is absorbing nearly all of the share agriculture is losing — a sign Nepal's transformation is skipping industrialization and moving straight into a services-led economy.
 
 **Growth is real but not yet structural.**
 Cash crops are growing faster than food crops in percentage terms, but food crops still dominate total volume, and their shares move inversely year to year — consistent with a subsistence-driven economy shifting between crop types rather than diversifying into high-value commercial agriculture.
