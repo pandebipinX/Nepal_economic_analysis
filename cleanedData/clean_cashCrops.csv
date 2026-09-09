@@ -1,0 +1,118 @@
+,Crop,Type,Year,Value
+0,Oilseeds,Area,2011-01-01,218.0
+1,Oilseeds,Production,2011-01-01,181.0
+2,Oilseeds,Productivity,2011-01-01,0.830275229357798
+3,Potato,Area,2011-01-01,187.0
+4,Potato,Production,2011-01-01,2682.0
+5,Potato,Productivity,2011-01-01,14.3422459893048
+6,Honey*,Bee Hives (Number),2011-01-01,0.0
+7,Honey*,Production,2011-01-01,0.0
+8,Honey*,Productivity,2011-01-01,0.0
+9,Oilseeds,Area,2012-01-01,215.0
+10,Oilseeds,Production,2012-01-01,179.0
+11,Oilseeds,Productivity,2012-01-01,0.832558139534884
+12,Potato,Area,2012-01-01,188.0
+13,Potato,Production,2012-01-01,2753.0
+14,Potato,Productivity,2012-01-01,14.6436170212766
+15,Honey*,Bee Hives (Number),2012-01-01,0.0
+16,Honey*,Production,2012-01-01,0.0
+17,Honey*,Productivity,2012-01-01,0.0
+18,Oilseeds,Area,2013-01-01,216.4
+19,Oilseeds,Production,2013-01-01,184.0
+20,Oilseeds,Productivity,2013-01-01,0.850277264325324
+21,Potato,Area,2013-01-01,205.72
+22,Potato,Production,2013-01-01,2817.51
+23,Potato,Productivity,2013-01-01,13.6958487264243
+24,Honey*,Bee Hives (Number),2013-01-01,0.0
+25,Honey*,Production,2013-01-01,0.0
+26,Honey*,Productivity,2013-01-01,0.0
+27,Oilseeds,Area,2014-01-01,233.0543
+28,Oilseeds,Production,2014-01-01,209.63276
+29,Oilseeds,Productivity,2014-01-01,0.89950178992621
+30,Potato,Area,2014-01-01,197.037
+31,Potato,Production,2014-01-01,2586.287
+32,Potato,Productivity,2014-01-01,13.1258951364465
+33,Honey*,Bee Hives (Number),2014-01-01,0.0
+34,Honey*,Production,2014-01-01,0.0
+35,Honey*,Productivity,2014-01-01,0.0
+36,Oilseeds,Area,2015-01-01,234.11383
+37,Oilseeds,Production,2015-01-01,211.13625
+38,Oilseeds,Productivity,2015-01-01,0.901852957597593
+39,Potato,Area,2015-01-01,190.896
+40,Potato,Production,2015-01-01,2551.739
+41,Potato,Productivity,2015-01-01,13.3671685106026
+42,Honey*,Bee Hives (Number),2015-01-01,225.0
+43,Honey*,Production,2015-01-01,3.0
+44,Honey*,Productivity,2015-01-01,0.0133333333333333
+45,Oilseeds,Area,2016-01-01,234.55987
+46,Oilseeds,Production,2016-01-01,211.73231
+47,Oilseeds,Productivity,2016-01-01,0.902679175257046
+48,Potato,Area,2016-01-01,202.3
+49,Potato,Production,2016-01-01,2755.879
+50,Potato,Productivity,2016-01-01,13.6227335640138
+51,Honey*,Bee Hives (Number),2016-01-01,232.0
+52,Honey*,Production,2016-01-01,3.5
+53,Honey*,Productivity,2016-01-01,0.0150862068965517
+54,Oilseeds,Area,2017-01-01,224.59
+55,Oilseeds,Production,2017-01-01,245.86
+56,Oilseeds,Productivity,2017-01-01,1.09470590854446
+57,Potato,Area,2017-01-01,195.26
+58,Potato,Production,2017-01-01,2881.29
+59,Potato,Productivity,2017-01-01,14.7561712588344
+60,Honey*,Bee Hives (Number),2017-01-01,240.0
+61,Honey*,Production,2017-01-01,3.95
+62,Honey*,Productivity,2017-01-01,0.0164583333333333
+63,Oilseeds,Area,2018-01-01,262.133424171486
+64,Oilseeds,Production,2018-01-01,282.231674466267
+65,Oilseeds,Productivity,2018-01-01,1.07667183365992
+66,Potato,Area,2018-01-01,193.99694845001
+67,Potato,Production,2018-01-01,3112.94687130059
+68,Potato,Productivity,2018-01-01,16.046370296916
+69,Honey*,Bee Hives (Number),2018-01-01,242.0
+70,Honey*,Production,2018-01-01,3.98
+71,Honey*,Productivity,2018-01-01,0.0164462809917355
+72,Oilseeds,Area,2019-01-01,258.141
+73,Oilseeds,Production,2019-01-01,278.325
+74,Oilseeds,Productivity,2019-01-01,1.15036798361595
+75,Potato,Area,2019-01-01,188.097900874636
+76,Potato,Production,2019-01-01,3131.83004956269
+77,Potato,Productivity,2019-01-01,16.65
+78,Honey*,Bee Hives (Number),2019-01-01,242.555
+79,Honey*,Production,2019-01-01,3.795
+80,Honey*,Productivity,2019-01-01,0.0164704912287935
+81,Oilseeds,Area,2020-01-01,259.101
+82,Oilseeds,Production,2020-01-01,287.037921311496
+83,Oilseeds,Productivity,2020-01-01,1.10782251443065
+84,Potato,Area,2020-01-01,198.787735
+85,Potato,Production,2020-01-01,3325.23088262
+86,Potato,Productivity,2020-01-01,16.727545502845
+87,Honey*,Bee Hives (Number),2020-01-01,244.68
+88,Honey*,Production,2020-01-01,4.061688
+89,Honey*,Productivity,2020-01-01,0.0166
+90,Oilseeds,Area,2021-01-01,260.65
+91,Oilseeds,Production,2021-01-01,287.34
+92,Oilseeds,Productivity,2021-01-01,1.1
+93,Potato,Area,2021-01-01,198.25
+94,Potato,Production,2021-01-01,3410.83
+95,Potato,Productivity,2021-01-01,17.2
+96,Honey*,Bee Hives (Number),2021-01-01,249.0
+97,Honey*,Production,2021-01-01,4.1
+98,Honey*,Productivity,2021-01-01,0.016
+99,Oilseeds,Area,2022-01-01,244.05
+100,Oilseeds,Production,2022-01-01,270.48
+101,Oilseeds,Productivity,2022-01-01,1.11
+102,Potato,Area,2022-01-01,203.81
+103,Potato,Production,2022-01-01,3472.2
+104,Potato,Productivity,2022-01-01,17.04
+105,Honey*,Bee Hives (Number),2022-01-01,245.01
+106,Honey*,Production,2022-01-01,4.3
+107,Honey*,Productivity,2022-01-01,0.018
+108,Oilseeds,Area,2023-01-01,239.03
+109,Oilseeds,Production,2023-01-01,262.56
+110,Oilseeds,Productivity,2023-01-01,1.1
+111,Potato,Area,2023-01-01,211.5
+112,Potato,Production,2023-01-01,3521.79
+113,Potato,Productivity,2023-01-01,16.65
+114,Honey*,Bee Hives (Number),2023-01-01,250.5
+115,Honey*,Production,2023-01-01,4.37
+116,Honey*,Productivity,2023-01-01,0.017
