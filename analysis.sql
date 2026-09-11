@@ -1,8 +1,12 @@
+
+
+
+
 SELECT sector,sum(value) as total FROM gdp_data
 GROUP BY sector
 ORDER BY total desc
 
---What is absolute MT production in 2000 vs 2024? (anchor numbers)
+--What is absolute MT production in 2011 vs 2023? (anchor numbers)
 WITH BASE AS (
 SELECT
     crop_type,
@@ -18,8 +22,8 @@ SELECT YEAR,SUM(PRODUCTION) FROM BASE
 WHERE crop_type = 'cash' 
 GROUP BY YEAR
 ORDER BY YEAR
---IN 2020: 11120.51 AND 2023: 11293.84 CASH
---IN 2020: 3616.33 AND 2023: 3788.72  FOOD
+--IN 2011: 11120.51 AND 2023: 11293.84 CASH
+--IN 2011: 3616.33 AND 2023: 3788.72  FOOD
 
   SELECT 
     year,
@@ -122,3 +126,29 @@ SELECT
     MAX(CASE WHEN last_row = 1 THEN value END) AS last_production
 FROM ranked
 GROUP BY crop;
+
+WITH ranked AS (
+  SELECT
+    crop, crop_type, type, year, value,
+    ROW_NUMBER() OVER (PARTITION BY crop, type ORDER BY year)      AS rn_first,
+    ROW_NUMBER() OVER (PARTITION BY crop, type ORDER BY year DESC) AS rn_last
+  FROM agriculture_production
+),
+endpoints AS (
+  SELECT
+    crop, crop_type, type,
+    MAX(CASE WHEN rn_first = 1 THEN value END) AS first_value,
+    MAX(CASE WHEN rn_last  = 1 THEN value END) AS last_value
+  FROM ranked
+  GROUP BY crop, crop_type, type
+)
+SELECT
+  crop, crop_type,
+  MAX(CASE WHEN type='Area'         THEN first_value END) AS area_first,
+  MAX(CASE WHEN type='Area'         THEN last_value  END) AS area_last,
+  MAX(CASE WHEN type='Production'   THEN first_value END) AS prod_first,
+  MAX(CASE WHEN type='Production'   THEN last_value  END) AS prod_last,
+  MAX(CASE WHEN type='Productivity' THEN first_value END) AS yield_first,
+  MAX(CASE WHEN type='Productivity' THEN last_value  END) AS yield_last
+FROM endpoints
+GROUP BY crop, crop_type;
